@@ -1,0 +1,16 @@
+{
+  "slug": "Viral-Modules",
+  "name": "Viral-Modules",
+  "version": "1.0.0",
+  "license": "MIT",
+  "brand": "Viral",
+  "author": "Cameron Roe",
+  "authorEmail": "cameron@cameronbroe.com",
+  "authorUrl": "https://cameronbroe.com",
+  "pluginUrl": "https://viral.cameronbroe.com",
+  "manualUrl": "https://viral.cameronbroe.com/manual",
+  "sourceUrl": "https://github.com/cameronbroe/Viral-Modules",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": []
+}
