@@ -12,5 +12,12 @@
   "sourceUrl": "https://github.com/cameronbroe/Viral-Modules",
   "donateUrl": "",
   "changelogUrl": "",
-  "modules": []
+  "modules": [
+    {
+      "slug": "Viral-Modules-Mult",
+      "name": "Mult",
+      "description": "A simple multiplier with 6 inputs mapped to 3 outputs each in 10HP",
+      "tags": ["Multiple"]
+    }
+  ]
 }
