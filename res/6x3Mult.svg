@@ -353,53 +353,47 @@
      id="layer3"
      inkscape:label="components"
      style="display:none">
-    <ellipse
+    <circle
        style="fill:#00ff00;stroke:#000000;stroke-width:0.264583"
        id="path14158"
        cx="9.4929314"
        cy="23.316437"
-       rx="5.0799999"
-       ry="5.0799994"
+       r="5"
        inkscape:label="input_0" />
-    <ellipse
+    <circle
        style="fill:#00ff00;stroke:#000000;stroke-width:0.264583"
        id="path14182"
        cx="9.4929314"
        cy="38.662285"
-       rx="5.0799999"
-       ry="5.0799994"
+       r="5"
        inkscape:label="input_1" />
-    <ellipse
+    <circle
        style="fill:#00ff00;stroke:#000000;stroke-width:0.264583"
        id="path14184"
        cx="9.4929314"
        cy="54.008129"
-       rx="5.0799999"
-       ry="5.0799994"
+       r="5"
        inkscape:label="input_2" />
-    <ellipse
+    <circle
        style="fill:#00ff00;stroke:#000000;stroke-width:0.264583"
        id="path14186"
        cx="9.4929314"
        cy="69.199448"
-       rx="5.0799999"
-       ry="5.0800018"
+       r="5"
        inkscape:label="input_3" />
-    <ellipse
+    <circle
        style="fill:#00ff00;stroke:#000000;stroke-width:0.264583"
        id="path14188"
        cx="9.4929314"
        cy="84.393021"
-       rx="5.0799999"
-       ry="5.079998"
+       r="5"
        inkscape:label="input_4" />
-    <ellipse
+    <circle
        style="fill:#00ff00;stroke:#000000;stroke-width:0.264583"
        id="path14190"
        cx="9.4929314"
        cy="99.844696"
-       rx="5.0799999"
-       ry="5.079998"
+       r="5"
        inkscape:label="input_5" />
     <circle
        style="fill:#0000ff;stroke:#000000;stroke-width:0.264583"
