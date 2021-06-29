@@ -43,58 +43,58 @@ struct Viral_Modules_Mult : Module {
         config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
     }
 
-    void process(const ProcessArgs &args) override {
-        std::map<int, std::vector<int>> input_output_map = {
+    std::map<int, std::vector<int>> input_output_map = {
             {
-                Viral_Modules_Mult::INPUT_0_INPUT,
-                {
-                        Viral_Modules_Mult::OUTPUT_0_0_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_0_1_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_0_2_OUTPUT
-                }
+                    Viral_Modules_Mult::INPUT_0_INPUT,
+                    {
+                            Viral_Modules_Mult::OUTPUT_0_0_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_0_1_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_0_2_OUTPUT
+                    }
             },
             {
-                Viral_Modules_Mult::INPUT_1_INPUT,
-                {
-                        Viral_Modules_Mult::OUTPUT_1_0_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_1_1_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_1_2_OUTPUT
-                }
+                    Viral_Modules_Mult::INPUT_1_INPUT,
+                    {
+                            Viral_Modules_Mult::OUTPUT_1_0_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_1_1_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_1_2_OUTPUT
+                    }
             },
             {
-                Viral_Modules_Mult::INPUT_2_INPUT,
-                {
-                        Viral_Modules_Mult::OUTPUT_2_0_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_2_1_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_2_2_OUTPUT
-                }
+                    Viral_Modules_Mult::INPUT_2_INPUT,
+                    {
+                            Viral_Modules_Mult::OUTPUT_2_0_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_2_1_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_2_2_OUTPUT
+                    }
             },
             {
-                Viral_Modules_Mult::INPUT_3_INPUT,
-                {
-                        Viral_Modules_Mult::OUTPUT_3_0_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_3_1_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_3_2_OUTPUT
-                }
+                    Viral_Modules_Mult::INPUT_3_INPUT,
+                    {
+                            Viral_Modules_Mult::OUTPUT_3_0_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_3_1_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_3_2_OUTPUT
+                    }
             },
             {
-                Viral_Modules_Mult::INPUT_4_INPUT,
-                {
-                        Viral_Modules_Mult::OUTPUT_4_0_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_4_1_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_4_2_OUTPUT
-                }
+                    Viral_Modules_Mult::INPUT_4_INPUT,
+                    {
+                            Viral_Modules_Mult::OUTPUT_4_0_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_4_1_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_4_2_OUTPUT
+                    }
             },
             {
-                Viral_Modules_Mult::INPUT_5_INPUT,
-                {
-                        Viral_Modules_Mult::OUTPUT_5_0_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_5_1_OUTPUT,
-                        Viral_Modules_Mult::OUTPUT_5_2_OUTPUT
-                }
+                    Viral_Modules_Mult::INPUT_5_INPUT,
+                    {
+                            Viral_Modules_Mult::OUTPUT_5_0_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_5_1_OUTPUT,
+                            Viral_Modules_Mult::OUTPUT_5_2_OUTPUT
+                    }
             }
-        };
+    };
 
+    void process(const ProcessArgs &args) override {
         for(auto io_pair: input_output_map) {
             auto channels = inputs[io_pair.first].getChannels();
             auto voltages = inputs[io_pair.first].getVoltages();
