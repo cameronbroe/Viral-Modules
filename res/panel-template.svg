@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.799999mm"
+   height="128.5mm"
+   viewBox="0 0 50.799999 128.5"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="panel-template.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#d9d9d9"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="50.8mm"
+     inkscape:zoom="1.5041395"
+     inkscape:cx="120.00217"
+     inkscape:cy="244.65816"
+     inkscape:window-width="1680"
+     inkscape:window-height="934"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer4" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Background">
+    <rect
+       style="fill:#cccccc;stroke:#cccccc;stroke-width:0.264583"
+       id="rect15928"
+       width="51.012001"
+       height="128.93723"
+       x="0.17590338"
+       y="-3.0789915e-06"
+       rx="1.0554206" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="components"
+     style="display:none" />
+  <g
+     id="g3686"
+     transform="matrix(0.27690269,0,0,0.27690269,24.698949,112.56379)">
+    <g
+       id="g3630" />
+    <g
+       id="g3636">
+      <g
+         id="g3634" />
+    </g>
+    <g
+       id="g3642">
+      <g
+         id="g3640" />
+    </g>
+    <g
+       id="g3648">
+      <g
+         id="g3646" />
+    </g>
+    <g
+       id="g3654">
+      <g
+         id="g3652" />
+    </g>
+    <g
+       id="g3660">
+      <g
+         id="g3658" />
+    </g>
+    <g
+       id="g3666">
+      <g
+         id="g3664" />
+    </g>
+    <g
+       id="g3672">
+      <g
+         id="g3670" />
+    </g>
+    <g
+       id="g3678">
+      <g
+         id="g3676" />
+    </g>
+    <g
+       id="g3684">
+      <g
+         id="g3682">
+        <path
+           id="polygon3680"
+           d="M 7,31 H 5 v -8.04 l 2,-0.54 z m 20,0 h -2 v -8.58 l 2,0.54 z M 12.13,21.05 14.11,20.52 15,20.28 v -0.53 l 0.66,0.17 0.33,0.09 H 16 l 0.58,0.16 0.42,0.11 0.89,0.24 1.98,0.53 5.13,1.37 2,0.54 V 24 L 26.74,24.97 25,24.5 21,23.43 19.42,23.01 19.4,23 16.26,22.16 16,22.09 15.67,22 15.56,21.97 15,21.82 14.03,21.56 Z M 17.97,21.56 17,21.82 16.44,21.97 16.33,22 16,22.09 15.75,22.16 H 15.74 L 12.6,23 12.58,23.01 H 12.57 L 11,23.43 7,24.5 5.26,24.97 5,24 v -1.04 l 2,-0.54 5.13,-1.37 1.98,-0.53 0.89,-0.24 0.42,-0.11 0.57,-0.16 H 16 l 0.33,-0.09 h 0.01 L 17,19.75 v 0.53 l 0.89,0.24 1.98,0.53 z m 1.45,1.45 1.58,1.57 V 31 h -2 v -8 h 2 v 0.43 z m -3.08,-3.09 0.24,0.25 0.42,0.42 0.41,0.41 0.56,0.56 1.45,1.44 v 0.01 L 21,24.58 V 26 L 20.29,26.71 19,25.42 16,22.41 15.75,22.16 H 15.74 L 15.59,22 14.11,20.52 15,20.28 v -1.01 l 0.34,-0.34 0.99,0.99 z M 13,31 H 11 V 24.58 L 12.57,23.01 11,23.43 V 23 h 2 z m 2,-10.41 0.42,-0.42 0.24,-0.25 0.34,-0.33 0.66,-0.66 0.34,0.34 v 1.01 L 17.89,20.52 16.41,22 16.26,22.16 16,22.41 13,25.42 11.71,26.71 11,26 v -1.42 l 1.57,-1.57 h 0.01 V 23 L 14.03,21.56 14.59,21 Z M 15,9 h 2 v 13 h -2 z m 1,1.083 -4,-2.31 V 3.155 l 4,-2.31 4,2.31 V 7.774 Z M 14,6.619 16,7.773 18,6.619 V 4.309 L 16,3.155 14,4.309 Z m 24.488573,24.381804 h -6.803209 q -1.719915,0 -1.719915,-1.758133 V 0.84499999 h 4.357112 V 26.452591 q 0,0.420423 0.382203,0.420423 h 3.783809 z M 2.5623459,29.892416 q 0,0.687965 0.1528696,1.108388 H -1.6801069 Q -1.8329881,30.695042 -1.8329881,30.121738 V 19.955142 q 0,-1.33771 -1.1466086,-1.33771 H -4.9288309 V 31.000804 H -9.2859435 V 2.6031331 q 0,-1.75813311 1.7199129,-1.75813311 h 6.3063468 q 3.7073685,0 3.7073685,4.93041681 v 7.5293962 q 0,2.484318 -1.7199147,3.401605 1.8345759,0.917287 1.8345759,3.592707 z M -2.9795967,14.566082 q 1.1083883,0 1.1083883,-1.33771 V 6.4251617 q 0,-1.4141506 -0.9555071,-1.4141506 H -4.546628 q -0.3822029,0 -0.3822029,0.4204231 V 14.566082 Z M -12.88642,31.000804 h -4.357113 V 0.84499999 h 4.357113 z m -9.913395,-1.567031 q -0.152881,1.567031 -1.528811,1.567031 h -4.892196 q -1.567032,0 -1.681693,-1.567031 L -33.425054,0.84499999 h 4.624655 l 1.567031,25.56937101 q 0,0.267541 0.229323,0.267541 h 0.267542 q 0.267541,0 0.267541,-0.267541 L -24.90193,0.84499999 h 4.624654 z" />
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:1.25;font-family:Bitcrusher;-inkscape-font-specification:'Bitcrusher, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.529167px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     x="9.5256844"
+     y="13.961658"
+     id="text5689"><tspan
+       sodipodi:role="line"
+       id="tspan5687"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:Bitcrusher;-inkscape-font-specification:'Bitcrusher, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="9.5256844"
+       y="13.961658">MODULE</tspan></text>
+</svg>
