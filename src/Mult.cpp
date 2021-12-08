@@ -95,10 +95,10 @@ struct Viral_Modules_Mult : Module {
     };
 
     void process(const ProcessArgs &args) override {
-        for(auto io_pair: input_output_map) {
+        for (auto io_pair: input_output_map) {
             auto channels = inputs[io_pair.first].getChannels();
             auto voltages = inputs[io_pair.first].getVoltages();
-            for(auto out: io_pair.second) {
+            for (auto out: io_pair.second) {
                 outputs[out].setChannels(channels);
                 outputs[out].writeVoltages(voltages);
             }
