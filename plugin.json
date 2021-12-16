@@ -18,6 +18,12 @@
       "name": "Mult",
       "description": "A simple multiplier with 6 inputs mapped to 3 outputs each in 10HP",
       "tags": ["Multiple"]
+    },
+    {
+      "slug": "Viral-Modules-OSC",
+      "name": "OSC",
+      "description": "A simple multiplier with 6 inputs mapped to 3 outputs each in 10HP",
+      "tags": []
     }
   ]
 }

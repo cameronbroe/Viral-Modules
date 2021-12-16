@@ -9,4 +9,5 @@ extern Plugin* pluginInstance;
 
 // Declare each Model, defined in each module source file
 extern Model* modelViral_Modules_Mult;
+extern Model* modelViral_Modules_OSC;
 
