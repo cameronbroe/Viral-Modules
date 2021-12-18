@@ -11,6 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const utils = require('./utils');
 
 function openVectornatorFile(vectornatorFilePath) {
     const manifest = JSON.parse(fs.readFileSync(path.join(vectornatorFilePath, 'Manifest.json')).toString());
@@ -56,10 +57,6 @@ function converHsbaToRgbaHex(hsba) {
     return `#${rgbaHexComponents.r}${rgbaHexComponents.g}${rgbaHexComponents.b}${rgbaHexComponents.a}`.toUpperCase();
 }
 
-function pointToMm(point) {
-    return point * 0.3527777778;
-}
-
 function getCenterOfCircle(component) {
     if(component.styleable.abstractPath.pathData.nodes.length != 4) {
         return { error: "not a perfect circle, can't derive center point" };
@@ -75,8 +72,8 @@ function getCenterOfCircle(component) {
         if(anchorPoint[1] >= maxY) { maxY = anchorPoint[1]; }
     });
     return {
-        x: pointToMm(((maxX - minX) / 2) + minX),
-        y: pointToMm(((maxY - minY) / 2) + minY)
+        x: utils.pointToMm(((maxX - minX) / 2) + minX),
+        y: utils.pointToMm(((maxY - minY) / 2) + minY)
     }
 }
 

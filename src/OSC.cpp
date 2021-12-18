@@ -46,7 +46,7 @@ struct Viral_Modules_OSCWidget : ModuleWidget {
         addChild(createWidget<ScrewSilver>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
 
         // Params
-        addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(25.403175001600204, 33.60189380013531)), module, Viral_Modules_OSC::FREQ_PARAM));
+        addParam(createParamCentered<RoundLargeBlackKnob>(mm2px(Vec(25.403175001600204, 33.60189380013531)), module, Viral_Modules_OSC::FREQ_PARAM));
         addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(12.701587500800098, 53.74757829805338)), module, Viral_Modules_OSC::FINE_PARAM));
         addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(38.1047625024003, 69.34716635020644)), module, Viral_Modules_OSC::PWM_CV_PARAM));
         addParam(createParamCentered<RoundBlackKnob>(mm2px(Vec(38.1047625024003, 53.13821938976614)), module, Viral_Modules_OSC::PULSE_WIDTH_PARAM));

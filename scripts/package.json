@@ -1,0 +1,16 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate_widget_class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-widget-class": "node generate_widget_class.js",
+    "patch-svg": "node patch_svg_width_height.js"
+  },
+  "author": "Cameron Roe",
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
